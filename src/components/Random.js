@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useGif } from "./hooks/useGif";
 
 function Random() {
