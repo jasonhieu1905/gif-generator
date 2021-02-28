@@ -5,7 +5,7 @@ function Random() {
   const { gif, fetchGif } = useGif();
 
   return (
-    <div className="container">
+    <div className="container random">
       <h1>Random Gif</h1>
       <img width="500" src={gif} alt="Random Gif" />
       <button onClick={fetchGif}>Random a Gif</button>

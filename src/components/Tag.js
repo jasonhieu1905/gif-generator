@@ -6,7 +6,7 @@ function Tag() {
   const [tag, setTag] = useState("");
 
   return (
-    <div className="container">
+    <div className="container tag">
       <h1>Random {tag} Gif</h1>
       <img width="500" src={gif} alt="Random Gif" />
       <input
